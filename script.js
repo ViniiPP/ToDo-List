@@ -62,8 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
         taskList.appendChild(li);
     }
     
-    
-
     function saveTasks() {
         const tasks = [];
         taskList.querySelectorAll('li').forEach(li => {

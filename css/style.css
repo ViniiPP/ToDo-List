@@ -54,6 +54,22 @@ h1 {
     background-color: #4cae4c;
 }
 
+.task-content {
+    flex: 1;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all; /* Isso fará com que o texto quebre em várias linhas */
+}
+
+.task-content::after {
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -85,21 +101,4 @@ button.delete-btn {
 
 button.delete-btn:hover {
     background-color: #c9302c;
-}
-
-
-.task-content {
-    flex: 1;
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-all; /* Isso fará com que o texto quebre em várias linhas */
-}
-
-.task-content::after {
-    content: '';
-    display: block;
-    height: 0;
-    overflow: hidden;
-    clear: both;
 }
