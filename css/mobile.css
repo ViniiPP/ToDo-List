@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    .input-container {
+        flex-direction: column;
+    }
+
+    #new-task {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #btn-task {
+        border-radius: 0 0 5px 5px;
+    }
+}
