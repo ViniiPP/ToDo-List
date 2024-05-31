@@ -26,13 +26,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     taskList.addEventListener('click', (e) => {
-        const target = e.target.closest('li');
-        if (target) {
-            const taskContent = target.querySelector('.task-content');
-            if (taskContent === e.target || taskContent.contains(e.target)) {
-                target.classList.toggle('completed');
-                saveTasks();
-            }
+        const targetTask = e.target.closest('li');
+        const targetContent = e.target.closest('.task-content');
+        if (targetTask) {
+            targetTask.classList.toggle('completed');
+            saveTasks();
+        } else if (targetContent) {
+            const task = targetContent.parentElement;
+            task.classList.toggle('completed');
+            saveTasks();
         }
     });
 
