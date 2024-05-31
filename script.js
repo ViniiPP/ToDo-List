@@ -25,16 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-taskList.addEventListener('click', (e) => {
-    const target = e.target.closest('li');
-    if (target) {
-        const taskContent = target.querySelector('.task-content');
-        if (taskContent === e.target || taskContent.contains(e.target)) {
-            target.classList.toggle('completed');
-            saveTasks();
+    taskList.addEventListener('click', (e) => {
+        const target = e.target.closest('li');
+        if (target) {
+            const taskContent = target.querySelector('.task-content');
+            if (taskContent === e.target || taskContent.contains(e.target)) {
+                target.classList.toggle('completed');
+                saveTasks();
+            }
         }
-    }
-});
+    });
 
     function addTask(taskText, completed = false) {
         const li = document.createElement('li');
