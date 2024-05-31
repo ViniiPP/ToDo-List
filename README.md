@@ -1,11 +1,9 @@
 
-# Projeto Portifólio
+# Projetor ToDo List
 
-**Projeto ToDo - list**
+**Site Pessoal**
 
-
-
- - [Site do meu Portifólio](https://viniipp.github.io/New-Portifolio/)
+ - [Portifólio](https://viniipp.github.io/New-Portifolio/)
 
 
 ## Tecnologias Usadas
@@ -24,4 +22,9 @@
 - [Linkedin](https://www.linkedin.com/in/vinicius-pereira-polli17)
 - [Instagram](https://www.instagram.com/eu_viniipp/)
 
+
+## OBS:
+    - Se clicar na task, ela será riscada.
+    - Se clicar no X, a task será deletada.
+    - Tasks limitadas em 8 (possível alterar pelo código JS).
 
