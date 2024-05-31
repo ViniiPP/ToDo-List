@@ -21,7 +21,7 @@
 
 ## Minhas Redes Sociais
 
-- [Linkedin](www.linkedin.com/in/vinicius-pereira-polli17)
+- [Linkedin](https://www.linkedin.com/in/vinicius-pereira-polli17)
 - [Instagram](https://www.instagram.com/eu_viniipp/)
 
 
