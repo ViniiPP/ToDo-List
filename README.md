@@ -15,15 +15,14 @@
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 
-**Site Pessoal**
-
- - [Portifólio](https://viniipp.github.io/New-Portifolio/)
-
-
 ## Minhas Redes Sociais
 
 - [Linkedin](https://www.linkedin.com/in/vinicius-pereira-polli17)
 - [Instagram](https://www.instagram.com/eu_viniipp/)
+
+  **Site Pessoal**
+
+ - [Portifólio](https://viniipp.github.io/New-Portifolio/)
 
 
 ## OBS:
