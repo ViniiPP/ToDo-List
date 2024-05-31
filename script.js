@@ -37,23 +37,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function addTask(taskText, completed = false) {
         const li = document.createElement('li');
-        li.textContent = taskText;
+        const taskContent = document.createElement('div');
+        taskContent.textContent = taskText;
+        taskContent.classList.add('task-content');
+    
         if (completed) {
             li.classList.add('completed');
         }
     
         const deleteBtn = document.createElement('button');
         deleteBtn.classList.add('delete-btn');
-        deleteBtn.innerHTML = '<i class="fas fa-times"></i>'; // Ícone de "X"
+        deleteBtn.innerHTML = '<i class="fas fa-times"></i>';
     
         deleteBtn.addEventListener('click', () => {
             li.remove();
             saveTasks();
         });
     
+        li.appendChild(taskContent);
         li.appendChild(deleteBtn);
         taskList.appendChild(li);
     }
+    
+    
 
     function saveTasks() {
         const tasks = [];
