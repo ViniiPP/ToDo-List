@@ -19,10 +19,7 @@
 
 - [Linkedin](https://www.linkedin.com/in/vinicius-pereira-polli17)
 - [Instagram](https://www.instagram.com/eu_viniipp/)
-
-  **Site Pessoal:**
-    - [Portifólio](https://viniipp.github.io/New-Portifolio/)
-
+- [Site Pessoal](https://viniipp.github.io/New-Portifolio/)
 
 ## OBS:
     - Se clicar na task, ela será riscada.
