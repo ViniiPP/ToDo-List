@@ -41,11 +41,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (completed) {
             li.classList.add('completed');
         }
-
+    
         const deleteBtn = document.createElement('button');
-        deleteBtn.textContent = 'Deletar';
         deleteBtn.classList.add('delete-btn');
-
+        deleteBtn.innerHTML = '<i class="fas fa-times"></i>'; // Ícone de "X"
+    
+        deleteBtn.addEventListener('click', () => {
+            li.remove();
+            saveTasks();
+        });
+    
         li.appendChild(deleteBtn);
         taskList.appendChild(li);
     }
