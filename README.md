@@ -1,5 +1,5 @@
 
-# Projetor ToDo List
+# Projeto ToDo List
 
 **Site desse projeto**
  - [ToDo-List](https://viniipp.github.io/ToDo-List/)
